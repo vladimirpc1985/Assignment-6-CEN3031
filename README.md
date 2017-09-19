@@ -70,7 +70,6 @@ Take note specifically of:
 6) In edit-listing.client.view.html, create a view similar to create-listing.client.view.html view.
 7) In listings.client.controller.js, implement the update listings using the update() function in 
    listings.client.factory.js and passing as parameters $stateParams.listingId and the new listing object.
-   
-   
-   
-   --himalpatel123@yahoo.com
+
+8) In map-listings.client.view.html, create a view to show the map's state.
+9) In listings.client.controller.js, implement the map representation.   
