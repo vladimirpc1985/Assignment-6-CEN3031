@@ -53,3 +53,24 @@ Take note specifically of:
     - update listings
     - remove listings
 3. Create views for the `listings.edit` and `listings.map` states
+
+
+#### Steps
+1) In Assignment-5, run:
+    - npm install -g bower
+    - bower install
+2) In index.htm, add a ui-sref property to each anchor tags.
+3) In listings.client.routes.js, create an state for map view.
+4) In listings.client.routes.js, create an state for edit view. This state is used by view-listing.client.view.html
+   when the button "Edit" is clicked. This state accepts a parameter "_id"
+   
+5) In listings.client.controller.js, implement the remove listings using the remove() function in 
+   listings.client.factory.js and passing as parameter $stateParams.listingId.
+   
+6) In edit-listing.client.view.html, create a view similar to create-listing.client.view.html view.
+7) In listings.client.controller.js, implement the update listings using the update() function in 
+   listings.client.factory.js and passing as parameters $stateParams.listingId and the new listing object.
+   
+   
+   
+   --himalpatel123@yahoo.com
